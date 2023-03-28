@@ -68,6 +68,6 @@ public class program
         }
         stopWatch.Stop();
         TimeSpan ts = stopWatch.Elapsed;
-        return palavraDescoberta + "\nTempo total: " + ts.Seconds + " segundos";
+        return palavraDescoberta + "\nTempo total: " + ts.Minutes + " minuto(s) e " + + ts.Seconds + " segundos";
     }
 }
